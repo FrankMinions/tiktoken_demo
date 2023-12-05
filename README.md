@@ -11,8 +11,8 @@ pip install transformers
 
 Moreover, you can use examples to train your own tokenizer based on tiktoken:
 
-Step1. Use `train_my_tiktoken.ipynb` to train your own tiktoken tokenizer based on your corpus. 
+Step1. Use [train_my_tiktoken.ipynb](https://github.com/FrankMinions/tiktoken_demo/blob/main/train_my_tiktoken.ipynb) to train your own tiktoken tokenizer based on your corpus. 
 
-Step2. Use `generate_extra_vocab_freq.ipynb` to generate a txt file which contains tokens to be merged and their frequencies.
+Step2. Use [generate_extra_vocab_freq.ipynb](https://github.com/FrankMinions/tiktoken_demo/blob/main/generate_extra_vocab_freq.ipynb) to generate a txt file which contains tokens to be merged and their frequencies.
 
-Step3. Finally use `merge_extra_vocab.ipynb` to merge the file generated in step2 with the basic tiktoken file. For the code of this step, referring to [Qwen](https://github.com/QwenLM/Qwen).
+Step3. Finally use [merge_extra_vocab.ipynb](https://github.com/FrankMinions/tiktoken_demo/blob/main/merge_extra_vocab.ipynb) to merge the file generated in step2 with the basic tiktoken file. For the code of this step, referring to [Qwen](https://github.com/QwenLM/Qwen).
